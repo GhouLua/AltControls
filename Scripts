@@ -9,6 +9,8 @@ getgenv().prefix = "." -- Prefix example .drop  ,  -drop  ,  ~drop  ,  !drop  , 
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GS21Official/Seller-Tools/main/Seller%20Tools%3A%20Script"))()
 
+
+
 -------------------------------------------------------------------------------------------------------------------------
 Scroll Down For More Alt Control!
 -------------------------------------------------------------------------------------------------------------------------
@@ -37,6 +39,8 @@ getgenv().Settings = {
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NoUGotbannedlol/DaHub/main/AltControlFree"))()
 
+
+
 ----------------------------------------------------------------------------------------------------------
 IKU Alt Control Discord https://discord.gg/7faC5xhJzx
 
@@ -48,6 +52,8 @@ getgenv().Alts = {
 }
 loadstring(game:HttpGet('https://raw.githubusercontent.com/W9K/roblox-scripts/main/DHC/AltControlV1', true))()
 
+
+
 --------------------------------------------------------------------------------------------------------------
 Commands IKU Alt control
 .setup
@@ -56,6 +62,8 @@ Commands IKU Alt control
 .fps <value>
 .loopdestroy <on/off>
 -----------------------------------------------------------------------------------------------------------------
+
+
 -----------------------------------------------------------------------------------------------------------------
 
 COSMO Alt Control Discord https://discord.gg/u5SwuP2MJH
@@ -88,7 +96,12 @@ getgenv().locations = { -- you can change "admin" to word you want to be used fo
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Husam-Dev/altcontroller/main/free.lua", true))()
 
-------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------
+Before Using COSMO ALT CONTROL Need To Be On Group https://web.roblox.com/groups/14007434/cosmos-alt-control#!/about
+--------------------------------------------------------------------------------------------------------------------
+
+
 
 Ducky Alt Control Discord https://discord.gg/UETjPW93EN
 
@@ -145,6 +158,8 @@ Commands For Ducky Alt Control:
 .block
 .unblock
 -------------------------------------------------------------------------------------------------------------------
+
+
 -------------------------------------------------------------------------------------------------------------------
 
 QITKOT Alt Control Discord https://discord.gg/V99pVGqVjw
@@ -218,6 +233,10 @@ getgenv().locations = { -- change "bank" to anything else you want location name
 -- [[ Launcher ]] --
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/qitkot/scripts/main/dahoodfreealtcontrol.lua", true))()
+------------------------------------------------------------------------------------------------------------------
+Before Using QITKOT ALt Control Need To Be On Group https://web.roblox.com/groups/14394661/Qitkot#!/about
+------------------------------------------------------------------------------------------------------------------
+
 
 ------------------------------------------------------------------------------------------------------------------
 
@@ -243,5 +262,5 @@ Commands For TechWare Alt Control:
 .crash (swag/encrypt) / if empty then, it will use the wallet crasher
 .fps (amount)
 .delcash (on/off) / destroys cash in ground
------------------------------------------------------------------------------------------------
+-------------------------------------------
 
