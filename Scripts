@@ -1,0 +1,246 @@
+GS21 Alt Control Discord https://discord.gg/Qvfy4bJnET Tyoe .commands to see the commands
+
+getgenv().Seller =  "GS21" -- Seller EXACT USERNAME ("Example") case sentive 
+getgenv().altMsg = "Thanks for using GS21's Seller Tools" -- Message the alts will say when .chat not .say
+getgenv().prefix = "." -- Prefix example .drop  ,  -drop  ,  ~drop  ,  !drop  , $drop   etc etc
+
+-- MAKE SURE THE SELLER IS INSIDE THE SERVER BEFORE EXECUTING
+-- To see the commands use .commmands on chat to see the full list
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GS21Official/Seller-Tools/main/Seller%20Tools%3A%20Script"))()
+
+-------------------------------------------------------------------------------------------------------------------------      More Coming Soon Alt Control!!!
+
+Da Hub Alt Control Discord https://discord.gg/MqEs24k8M4
+
+repeat
+wait()
+until
+game:IsLoaded()
+getgenv().Settings = {
+ ["Host"] = "MAINACCHERE",
+ ["Prefix"] = ".",
+ ["FPS"] = 5,
+ ["Ad"] = "Thanks For Buying!",
+ ["Advertise"] = true,
+ ["AdWaitTime"] = 10,
+ ["WebHookMode"] = true,
+ ["Webhookurl"] = "WEBHOOKHERE", ---webhook here
+ ["NotificationMode"] = true, 
+ ["GodMode"] = true,
+ ["AutoMask"] = true,
+ ["AutoHide"] = false,
+ ["Alt1"] = "altname1", --Alts can go up to 20 ["Alt20"] = "user"
+ ["Alt2"] = "altname2",
+ ["Alt3"] = "altname3",
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NoUGotbannedlol/DaHub/main/AltControlFree"))()
+
+----------------------------------------------------------------------------------------------------------
+IKU Alt Control Discord https://discord.gg/7faC5xhJzx
+
+getgenv().Host = 'UserName' -- Case Sensitive
+getgenv().FPS = 10
+getgenv().Alts = {
+ Alt1 = 123456, -- Alts UserIDs here (UP TO 10, Just add more lines.)
+ Alt2 = 123456,
+}
+loadstring(game:HttpGet('https://raw.githubusercontent.com/W9K/roblox-scripts/main/DHC/AltControlV1', true))()
+
+--------------------------------------------------------------------------------------------------------------
+Commands IKU Alt control
+.setup
+.drop
+.crash
+.fps <value>
+.loopdestroy <on/off>
+-----------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
+
+COSMO Alt Control Discord https://discord.gg/u5SwuP2MJH
+
+-- [[ Settings ]] --
+
+getgenv().prefix = '!' -- prefix which should run the commands
+getgenv().controller = 12345 -- id of controller, the guy who should be able to use commands!
+
+getgenv().alts = { -- max 10 alts
+    Alt1 = 12345, -- Alt3, etc make sure all have "," after each alt
+    Alt2 = 12345
+}
+
+getgenv().commands = { -- change "drop" to any word you want drop to run when you say, same for others down
+    ['COSMO_DropStart'] = "drop",
+    ['COSMO_DropStop'] = "stop",
+    ['COSMO_SetupAlts'] = "setup", 
+    ['COSMO_CrashCMD'] = "crashswag", 
+    ['COSMO_ShowOrHideWallet'] = "wallet", 
+    ['COSMO_SetTheFPSCap'] = 'fps', 
+    ['COSMO_AutoDestroyCash'] = 'loopdestroy', 
+}
+getgenv().locations = { -- you can change "admin" to word you want to be used for adminbase location
+    ['COSMO_InfrontBank'] = "bank", 
+    ['COSMO_AdminBase'] = "admin", 
+}
+
+-- [[ Launcher ]] --
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Husam-Dev/altcontroller/main/free.lua", true))()
+
+------------------------------------------------------------------------------------------------------------
+
+Ducky Alt Control Discord https://discord.gg/UETjPW93EN
+
+getgenv().MainAccount = "urmainaccname"
+getgenv().FPS = 5
+getgenv().AutoRender = true
+getgenv().Alts = {
+    [1] = 0, --replace 0 whit ur alt id
+    [2] = 0,
+    [3] = 0, 
+}
+-- IGNORE --
+loadstring(game:HttpGet('https://raw.githubusercontent.com/MsorkyScripts/TheExploitIMade/main/AltControl', true))()
+-------------------------------------------------------------------------------------------------------------------
+Commands For Ducky Alt Control:
+
+.muscle [Lifts Heavy Weight]
+.stop muscle [Stops Strength Grind]
+.setup klub
+.drop[Drops 10,000 Da Hood Cash]
+.stop drop[Stops Dropping Cash]
+.setup bank [Sets Up Alts in a Good layout]
+.setup vault [Used for duping it is a small place]
+.setup admin
+.setup train
+.customdrop [100k,500k,1m,5m,10m]
+.fps all [Amount]
+.fps [PlayerName]
+.crash swag [altname] [Loads up SwagMode Crash GUI]
+.ad on [Text You Want The Alts To Spam]
+.ad off [Stops Advertise]
+.airlock [Locks Alts In Air]
+.stop air [Drops Alts Back To The Ground]
+.mask on [Buys And Equips mask]
+.mask off [Unequips Mask]
+.bring [brings all alt accounts]
+.bring [Username] -- WILL BRING the target to u [it'll kill em and carry em to u]
+.bring host [bank,admin,vault,train,klub]
+.render [Saves Cpu/Gpu Usage]
+.aura [Enables Cash Aura On Certain Alt Put Username of alt]
+.stop aura [Turns Of Cash Aura on Alt]
+.circle host [Circles The Host]
+.check [Notifies Alts How Much Cash Is Dropped]
+.wallet on [Equips Alts Wallets]
+.wallet off [Unequips Wallets]
+.cashdel -- RECOMMENDED HIGHLY SO U DONT GET DISCONNECTED
+
+.stop dance-- stops playing dance
+.floss -- does the dance the floss
+.shuffle-- does the dance shuffle
+.dolphin -- does the dance dolphin
+.monkey -- does monkey dance
+
+.block
+.unblock
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+
+QITKOT Alt Control Discord https://discord.gg/V99pVGqVjw
+
+-- [[ Settings ]] --
+
+getgenv().prefix = '!' -- prefix which should run the commands
+getgenv().controller = 12345 -- id of whitelisted user, requirements: whitelisted, in group as premium role, note the controller must join before alts
+
+getgenv().gui = true -- recommneded to be on, to load UI on controller!
+getgenv().selfcommands = true -- allow you to use commands on controller account by adding s of start of commands
+getgenv().lag_reducer = true -- recommended to be on, reduce lag a lot
+
+getgenv().alts = { -- max 25 alts
+    Alt1 = 12345, -- Alt3, etc make sure all have "," after each alt
+    Alt2 = 12345,
+}
+
+getgenv().commands = { -- change "commands" to anything else you want drop to run when you say, same for others down
+    ['QITKOT_CommandsList'] = "commands",
+    ['QITKOT_DropStart'] = "drop",
+    ['QITKOT_DropStop'] = "stop",
+    ['QITKOT_DropUntil'] = "dropuntil",
+    ['QITKOT_BringAlts'] = "bring",
+    ['QITKOT_SetupAlts'] = "setup",
+    ['QITKOT_CrashCMD'] = "crash",
+    ['QITKOT_TotalCashCount'] = "countcash",
+    ['QITKOT_KickAllAlts'] = "kickalts",
+    ['QITKOT_ToggleFreezeAlts'] = "freeze",
+    ['QITKOT_ShowOrHideWallet'] = "wallet",
+    ['QITKOT_AirLockAlts'] = "airlock",
+    ['QITKOT_ResetAltsCharacters'] = "reset",
+    ['QITKOT_SaySomething'] = "say",
+    ['QITKOT_SetTheFPSCap'] = "fps",
+    ['QITKOT_CashPickingToggle'] = "cashaura",
+    ['QITKOT_AltsVibingLOL'] = "vibe",
+    ['QITKOT_HideAlts'] = "hide",
+    ['QITKOT_AutoDestroyCash'] = 'loopdestroy',
+    ['QITKOT_LoopKillUser'] = 'loopkill',
+    ['QITKOT_StopLoopKill'] = 'stopkill',
+    ['QITKOT_LineUp'] = 'line',
+    ['QITKOT_HoldBlock'] = 'block',
+    ['QITKOT_SpamMessage'] = 'spam',
+    ['QITKOT_NoClip'] = 'noclip',
+    ['QITKOT_ToggleMask'] = 'mask',
+    ['QITKOT_WeightFarm'] = 'weightfarm',
+    ['QITKOT_LettuceFarm'] = 'lettucefarm',
+    ['QITKOT_GodMode'] = 'god',
+    ['QITKOT_StackAlts'] = 'stack',
+    ['QITKOT_CircleAround'] = 'circle',
+    ['QITKOT_ChatSpy'] = 'spy',
+    ['QITKOT_Donate'] = 'donate',
+    ['QITKOT_DupeAlt'] = 'dupe',
+    ['QITKOT_Benxlol'] = 'benx',
+    ['QITKOT_TpPlayerTo'] = 'tp',
+}
+
+getgenv().locations = { -- change "bank" to anything else you want location name to be replaced and used with, same for others down
+    ['QITKOT_InfrontBank'] = "bank",
+    ['QITKOT_AdminBase'] = "admin",
+    ['QITKOT_School'] = 'school',
+    ['QITKOT_Train'] = 'train',
+    ['QITKOT_SafeZone3'] = 'sz3',
+    ['QITKOT_BasketBall'] = 'basket',
+    ['QITKOT_TacoShop'] = 'taco',
+    ['QITKOT_AdminJail'] = 'jail',
+    ['QITKOT_UnderTrain'] = 'undertrain',
+    ['QITKOT_TheClub'] = 'club',
+}
+
+-- [[ Launcher ]] --
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/qitkot/scripts/main/dahoodfreealtcontrol.lua", true))()
+
+------------------------------------------------------------------------------------------------------------------
+
+techware Alt Control discord https://discord.gg/h4c7hsUqqx
+
+getgenv().Seller = {1234567} -- case sensitive
+
+getgenv().Alts = {
+    1234567, --> 15 ALTS MAX, JUST ADD MORE LINES
+    1234567,
+}
+
+getgenv().CrasherIDs = {
+    1234567,
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/S9AN/lua-projects/main/v1", true))()
+-----------------------------------------------------------------------------------------------
+Commands For TechWare Alt Control:
+
+.setup
+.drop/stop
+.crash (swag/encrypt) / if empty then, it will use the wallet crasher
+.fps (amount)
+.delcash (on/off) / destroys cash in ground
+-----------------------------------------------------------------------------------------------
+
