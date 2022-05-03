@@ -9,8 +9,9 @@ getgenv().prefix = "." -- Prefix example .drop  ,  -drop  ,  ~drop  ,  !drop  , 
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GS21Official/Seller-Tools/main/Seller%20Tools%3A%20Script"))()
 
--------------------------------------------------------------------------------------------------------------------------      More Coming Soon Alt Control!!!
-
+-------------------------------------------------------------------------------------------------------------------------
+Scroll Down For More Alt Control!
+-------------------------------------------------------------------------------------------------------------------------
 Da Hub Alt Control Discord https://discord.gg/MqEs24k8M4
 
 repeat
